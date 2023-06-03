@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const ContainerNavbar = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: transparent;
-  padding: 1em;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 16px;
 `;
 
 export const HomePage = styled.div`
@@ -13,6 +17,7 @@ export const HomePage = styled.div`
   align-items: center;
   flex-direction: row;
   justify-content: center;
+
 `;
 
 export const List = styled.div`
@@ -22,7 +27,13 @@ export const List = styled.div`
   flex-direction: row;
   justify-content: center;
   margin-right: 24%;
+`;
 
+export const NavbarLink = styled(Link)`
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
 `;
 
 export const Items = styled.div`

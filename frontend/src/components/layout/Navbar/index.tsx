@@ -1,8 +1,6 @@
 //navbar para o header
-import { Link } from 'react-router-dom';
-
 import logo from '../../../../public/easydrinks.png';
-import { ContainerButtons, ContainerNavbar, HomePage, Items, List } from './styles';
+import { ContainerButtons, ContainerNavbar, HomePage, Items, List, NavbarLink } from './styles';
 
 export function Navbar(){
   return(
@@ -10,25 +8,25 @@ export function Navbar(){
 
       <HomePage>
         <Items>
-          <Link to='' style={{display: 'flex', alignItems:'center', textDecoration: 'none'}}>
+          <NavbarLink to='' >
             <img src={logo} alt='EasyDrinks' width={50} />
             <h3 style={{marginLeft: '8px'}}>EasyDrinks</h3>
-          </Link>
+          </NavbarLink>
         </Items>
       </HomePage>
 
       <List>
 
         <Items>
-          <Link to='' style={{textDecoration: 'none'}}>Preços</Link>
+          <NavbarLink to=''>Preços</NavbarLink>
         </Items>
 
         <Items>
-          <Link to=''  style={{textDecoration: 'none'}}>Sobre nós</Link>
+          <NavbarLink to=''>Sobre nós</NavbarLink>
         </Items>
 
         <Items>
-          <Link to=''  style={{textDecoration: 'none'}}>Features</Link>
+          <NavbarLink to='' >Features</NavbarLink>
         </Items>
 
       </List>
