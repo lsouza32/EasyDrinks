@@ -1,0 +1,3 @@
+--- Ajustes a serem feitos
+
+- Header (navbar) -> Ao diminuir a janela do browser a proporcao do navbar esta bugando
