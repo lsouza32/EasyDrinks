@@ -1,6 +1,6 @@
 # EasyDrinks
-## EasyDrinks - A melhor ferramenta para você organizar seus eventos.
 ## (Em desenvolvimento)
+## EasyDrinks - A melhor ferramenta para você organizar seus eventos.
 
 EasyDrinks é um aplicativo mobile e web desenvolvido para diminuir as filas de compras no bar de festas. Com o EasyDrinks, os clientes podem fazer seus pedidos de bebidas através do aplicativo e retirá-los no caixa, sem a necessidade de enfrentar filas.
 
