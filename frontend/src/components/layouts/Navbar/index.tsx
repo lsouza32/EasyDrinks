@@ -1,6 +1,7 @@
 //navbar para o header
-import logo from '../../../../public/easydrinks.png';
+import logo from '/easydrinks3.png';
 import { ContainerButtons, ContainerNavbar, HomePage, Items, List, NavbarLink } from './styles';
+import {Button} from '../../Button/';
 
 export function Navbar(){
   return(
@@ -9,8 +10,7 @@ export function Navbar(){
       <HomePage>
         <Items>
           <NavbarLink to='' >
-            <img src={logo} alt='EasyDrinks' width={50} />
-            <h3 style={{marginLeft: '8px'}}>EasyDrinks</h3>
+            <img src={logo} alt='EasyDrinks-logo' width={120} />
           </NavbarLink>
         </Items>
       </HomePage>
@@ -32,15 +32,22 @@ export function Navbar(){
       </List>
 
       <ContainerButtons>
-        <button type='button' style={{background: '#F5F5F5', color: '#333333'}} >
-        Log in
-        </button>
 
-        <button type='button' style={{background: '#1475FF', color: '#fff'}} >
-        Sign up
-        </button>
+        <Button
+          placeholder='Log in'
+          background= '#F5F5F5'
+          color='#333333'
+          onClick={()=> {alert('clicou');}}
+        />
+
+        <Button
+          placeholder='Sign up'
+          background='#1475FF'
+          color='#fff'
+          onClick={()=> {alert('clicou');}}
+        />
+
       </ContainerButtons>
-
     </ContainerNavbar>
 
   );

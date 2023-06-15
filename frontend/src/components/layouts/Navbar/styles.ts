@@ -29,6 +29,7 @@ export const List = styled.div`
 
 export const NavbarLink = styled(Link)`
   color: white;
+  font-weight: 500;
   text-decoration: none;
   align-items: center;
   display: flex;

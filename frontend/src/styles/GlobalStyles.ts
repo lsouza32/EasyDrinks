@@ -46,6 +46,8 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: GeneralSans, sans-serif;
+    --my-blue: ##1475FF,
+
   }
 
   body {
@@ -54,8 +56,24 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   button {
+    min-width: 124px;
+    max-height: 44px;
+
+    margin-right: 16px;
+    margin-top: 16px;
+
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid transparent;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
     cursor: pointer;
-    font-size: 1rem;
-    color: #333;
+    white-space: nowrap;
   }
 `;
+

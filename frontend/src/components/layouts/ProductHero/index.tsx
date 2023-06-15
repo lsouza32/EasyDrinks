@@ -1,5 +1,6 @@
 import { Container, Card, Slogan, ContainerButton, Image } from './styles';
 import logo from '../../../assets/images/leisure _ relax.svg';
+import { Button } from '../../Button';
 
 
 
@@ -13,19 +14,23 @@ export function ProductHero(){
           <h1>Organize seus eventos com facilidade</h1>
         </Slogan>
 
-
         <ContainerButton>
-          <button type='button' style={{background: '#1475FF', color: '#fff'}} >
-            Iniciar
-          </button>
 
-          <button type='button' style={{background: '#F5F5F5', color: '#333333'}} >
-            Saber mais
-          </button>
+          <Button
+            placeholder='Iniciar'
+            background= '#1475FF'
+            color='#fff'
+            onClick={()=> {alert('clicou');}}
+          />
 
+          <Button
+            placeholder='Saber mais'
+            background='#F5F5F5'
+            color='#333333'
+            onClick={()=> {alert('clicou');}}
+          />
 
         </ContainerButton>
-
       </Card>
 
       <Image>

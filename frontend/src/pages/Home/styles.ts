@@ -7,3 +7,11 @@ export const Header = styled.header`
   padding-left: 72px;
   padding-right: 72px;
 `;
+
+export const Body = styled.body`
+  display: flex;
+  background-color: "#f5f5f5";
+  flex-direction: column;
+  padding-left: 72px;
+  padding-right: 72px;
+`;
