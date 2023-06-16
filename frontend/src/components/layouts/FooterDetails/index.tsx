@@ -1,7 +1,11 @@
 import { LinkNavbar } from '../../LinkNavbar';
-import { Container, Description, Image, List, Details, ContainerDescription, ContainerGetApp } from './styles';
+import { Container, Description, Image, List, Details, ContainerDescription, ContainerGetApp, ContainerSocial } from './styles';
 import googleplayLogo from '../../../assets/images/google-play-badge.png';
 import appstoreLogo from '../../../assets/images/App-Store-Badge.svg';
+import iconInstagram from '../../../assets/images/icon-instagram.png';
+import iconFacebook from '../../../assets/images/icon-facebook.png';
+import iconTwitter from '../../../assets/images/icon-twitter.png';
+
 
 
 
@@ -11,7 +15,7 @@ export function FooterDetails() {
       <Details>
         <ContainerDescription>
           <Image>
-            <img src='/easydrinks3.png' alt='Logo-EasyDrinks' width={100}/>
+            <img src='/easydrinks4.png' alt='Logo-EasyDrinks' width={150}/>
           </Image>
 
           <Description>
@@ -40,13 +44,26 @@ export function FooterDetails() {
           <LinkNavbar to='/'>
             <img src={appstoreLogo} alt='App-Store-Download' width={150}/>
           </LinkNavbar>
+
+          <ContainerSocial>
+            <LinkNavbar to='/'>
+              <img src={iconFacebook} alt='Facebook-page' width={40}/>
+            </LinkNavbar>
+
+            <LinkNavbar to='/'>
+              <img src={iconInstagram} alt='Instagram-page' width={40}/>
+            </LinkNavbar>
+
+            <LinkNavbar to='/'>
+              <img src={iconTwitter} alt='Twitter-page' width={40}/>
+            </LinkNavbar>
+          </ContainerSocial>
+
         </ContainerGetApp>
 
       </Details>
 
-      <h3> -----linha ----</h3>
-
-      <h3>© Todos os direitos reservados - EasyDrinks - 2077 </h3>
+      <Description>© Todos os direitos reservados - EasyDrinks - 2024 </Description>
 
     </Container>
   );
