@@ -15,3 +15,11 @@ export const Body = styled.body`
   padding-left: 72px;
   padding-right: 72px;
 `;
+
+export const Footer = styled.body`
+  display: flex;
+  background-color: rgb(31,41,55);
+  flex-direction: column;
+  padding-left: 72px;
+  padding-right: 72px;
+`;
