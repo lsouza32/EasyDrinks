@@ -33,11 +33,10 @@ export const Details = styled.div`
   margin-bottom: 24px;
 `;
 
-
 export const ContainerDescription = styled.div`
   display: flex;
   flex-direction: column;
-  padding-right: 300px;
+  padding-right: 200px;
   margin-bottom: 36px;
 `;
 
@@ -50,9 +49,10 @@ export const ContainerGetApp = styled.div`
 
 export const ContainerSocial = styled.div`
   display: flex;
+  width: 200px;
   flex-direction: row;
   padding-top: 24px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 `;
 

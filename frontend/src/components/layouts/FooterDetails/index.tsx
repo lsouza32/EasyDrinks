@@ -37,26 +37,26 @@ export function FooterDetails() {
 
         <ContainerGetApp>
           <Description style={{paddingRight: '20px'}}>Baixe o app</Description>
-          <LinkNavbar to='/'>
+          <a  href='https://play.google.com/' target='_blank'  rel="noreferrer">
             <img src={googleplayLogo} alt='Google-Play-Download' width={150}/>
-          </LinkNavbar>
+          </a>
 
-          <LinkNavbar to='/'>
+          <a href='https://www.apple.com/br/app-store/' target='_blank'  rel="noreferrer">
             <img src={appstoreLogo} alt='App-Store-Download' width={150}/>
-          </LinkNavbar>
+          </a>
 
           <ContainerSocial>
-            <LinkNavbar to='/'>
+            <a href='https://www.facebook.com' target='_blank'  rel="noreferrer">
               <img src={iconFacebook} alt='Facebook-page' width={40}/>
-            </LinkNavbar>
+            </a>
 
-            <LinkNavbar to='/'>
+            <a href='https://www.instagram.com/' target='_blank'  rel="noreferrer">
               <img src={iconInstagram} alt='Instagram-page' width={40}/>
-            </LinkNavbar>
+            </a>
 
-            <LinkNavbar to='/'>
+            <a href='https://www.twitter.com/' target='_blank'  rel="noreferrer">
               <img src={iconTwitter} alt='Twitter-page' width={40}/>
-            </LinkNavbar>
+            </a>
           </ContainerSocial>
 
         </ContainerGetApp>
