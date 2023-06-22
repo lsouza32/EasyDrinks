@@ -4,6 +4,7 @@ import { ProductHero } from '../../components/layouts/ProductHero';
 import { FooterDetails } from '../../components/layouts/FooterDetails';
 import { Header, Body, Footer } from './styles';
 import { ProductCta } from '../../components/layouts/ProductCta';
+import { SignalReview } from '../../components/layouts/SignalReview';
 
 export function Home(){
   return(
@@ -14,6 +15,7 @@ export function Home(){
       </Header>
       <Body>
         <FeatureHighlight/>
+        <SignalReview/>
         <ProductCta/>
       </Body>
       <Footer>
