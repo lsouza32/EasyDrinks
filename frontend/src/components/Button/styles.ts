@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Buttons = styled.div`
     min-width: 124px;
     max-height: 44px;
-    margin-right: 16px;
-    margin-top: 16px;
     display: flex;
     cursor: pointer;
     white-space: nowrap;

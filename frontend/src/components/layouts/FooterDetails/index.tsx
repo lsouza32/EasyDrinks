@@ -27,11 +27,11 @@ export function FooterDetails() {
           </Description>
 
           <List>
-            <LinkNavbar to='/' title='Home'/>
-            <LinkNavbar to='/' title='Sobre nós'/>
-            <LinkNavbar to='/' title='Blog'/>
-            <LinkNavbar to='/' title='Preços'/>
-            <LinkNavbar to='/' title='Contato'/>
+            <LinkNavbar to='/home' title='Home'/>
+            <LinkNavbar to='/about' title='Sobre nós'/>
+            <LinkNavbar to='/blog' title='Blog'/>
+            <LinkNavbar to='/prices' title='Preços'/>
+            <LinkNavbar to='/contact' title='Contato'/>
           </List>
         </ContainerDescription>
 
