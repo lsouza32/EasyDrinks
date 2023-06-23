@@ -5,6 +5,7 @@ import { FooterDetails } from '../../components/layouts/FooterDetails';
 import { Header, Body, Footer } from './styles';
 import { ProductCta } from '../../components/layouts/ProductCta';
 import { SignalReview } from '../../components/layouts/SignalReview';
+import { Pricing } from '../../components/layouts/Pricing';
 
 export function Home(){
   return(
@@ -15,6 +16,7 @@ export function Home(){
       </Header>
       <Body>
         <FeatureHighlight/>
+        <Pricing/>
         <SignalReview/>
         <ProductCta/>
       </Body>
